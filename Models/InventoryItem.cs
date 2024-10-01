@@ -420,203 +420,203 @@ namespace CriticalCommonLib.Models
             {
                 if(SortedContainer is InventoryType.Bag0 or InventoryType.RetainerBag0)
                 {
-                    return "Bag 1";
+                    return "背包 1";
                 }
                 if(SortedContainer is InventoryType.Bag1 or InventoryType.RetainerBag1)
                 {
-                    return "Bag 2";
+                    return "背包 2";
                 }
                 if(SortedContainer is InventoryType.Bag2 or InventoryType.RetainerBag2)
                 {
-                    return "Bag 3";
+                    return "背包 3";
                 }
                 if(SortedContainer is InventoryType.Bag3 or InventoryType.RetainerBag3)
                 {
-                    return "Bag 4";
+                    return "背包 4";
                 }
                 if(SortedContainer is InventoryType.RetainerBag4)
                 {
-                    return "Bag 5";
+                    return "背包 5";
                 }
                 if(SortedContainer is InventoryType.SaddleBag0)
                 {
-                    return "Saddlebag Left";
+                    return "鸟包 左";
                 }
                 if(SortedContainer is InventoryType.SaddleBag1)
                 {
-                    return "Saddlebag Right";
+                    return "鸟包 右";
                 }
                 if(SortedContainer is InventoryType.PremiumSaddleBag0)
                 {
-                    return "Premium Saddlebag Left";
+                    return "豪华鸟包 左";
                 }
                 if(SortedContainer is InventoryType.PremiumSaddleBag1)
                 {
-                    return "Premium Saddlebag Right";
+                    return "豪华鸟包 右";
                 }
                 if(SortedContainer is InventoryType.ArmoryBody)
                 {
-                    return "Armory - Body";
+                    return "兵装库 - 身体";
                 }
                 if(SortedContainer is InventoryType.ArmoryEar)
                 {
-                    return "Armory - Ear";
+                    return "兵装库 - 耳饰";
                 }
                 if(SortedContainer is InventoryType.ArmoryFeet)
                 {
-                    return "Armory - Feet";
+                    return "兵装库 - 脚";
                 }
                 if(SortedContainer is InventoryType.ArmoryHand)
                 {
-                    return "Armory - Hand";
+                    return "兵装库 - 手";
                 }
                 if(SortedContainer is InventoryType.ArmoryHead)
                 {
-                    return "Armory - Head";
+                    return "兵装库 - 头";
                 }
                 if(SortedContainer is InventoryType.ArmoryLegs)
                 {
-                    return "Armory - Legs";
+                    return "兵装库 - 腿";
                 }
                 if(SortedContainer is InventoryType.ArmoryMain)
                 {
-                    return "Armory - Main";
+                    return "兵装库 - 主手";
                 }
                 if(SortedContainer is InventoryType.ArmoryNeck)
                 {
-                    return "Armory - Neck";
+                    return "兵装库 - 项链";
                 }
                 if(SortedContainer is InventoryType.ArmoryOff)
                 {
-                    return "Armory - Offhand";
+                    return "兵装库 - 副手";
                 }
                 if(SortedContainer is InventoryType.ArmoryRing)
                 {
-                    return "Armory - Ring";
+                    return "兵装库 - 戒指";
                 }
                 if(SortedContainer is InventoryType.ArmoryWaist)
                 {
-                    return "Armory - Waist";
+                    return "兵装库 - 腰带";
                 }
                 if(SortedContainer is InventoryType.ArmoryWrist)
                 {
-                    return "Armory - Wrist";
+                    return "兵装库 - 手腕";
                 }
                 if(SortedContainer is InventoryType.ArmorySoulCrystal)
                 {
-                    return "Armory - Soul Crystal";
+                    return "兵装库 - 灵魂水晶";
                 }
                 if(SortedContainer is InventoryType.GearSet0)
                 {
-                    return "Equipped Gear";
+                    return "已装备";
                 }
                 if(SortedContainer is InventoryType.RetainerEquippedGear)
                 {
-                    return "Equipped Gear";
+                    return "雇员已装备";
                 }
                 if(SortedContainer is InventoryType.FreeCompanyBag0)
                 {
-                    return "Free Company Chest - 1";
+                    return "部队储物柜 - 1";
                 }
                 if(SortedContainer is InventoryType.FreeCompanyBag1)
                 {
-                    return "Free Company Chest - 2";
+                    return "部队储物柜 - 2";
                 }
                 if(SortedContainer is InventoryType.FreeCompanyBag2)
                 {
-                    return "Free Company Chest - 3";
+                    return "部队储物柜 - 3";
                 }
                 if(SortedContainer is InventoryType.FreeCompanyBag3)
                 {
-                    return "Free Company Chest - 4";
+                    return "部队储物柜 - 4";
                 }
                 if(SortedContainer is InventoryType.FreeCompanyBag4)
                 {
-                    return "Free Company Chest - 5";
+                    return "部队储物柜 - 5";
                 }
                 if(SortedContainer is InventoryType.FreeCompanyBag5)
                 {
-                    return "Free Company Chest - 6";
+                    return "部队储物柜 - 6";
                 }
                 if(SortedContainer is InventoryType.FreeCompanyBag6)
                 {
-                    return "Free Company Chest - 7";
+                    return "部队储物柜 - 7";
                 }
                 if(SortedContainer is InventoryType.FreeCompanyBag7)
                 {
-                    return "Free Company Chest - 8";
+                    return "部队储物柜 - 8";
                 }
                 if(SortedContainer is InventoryType.FreeCompanyBag8)
                 {
-                    return "Free Company Chest - 9";
+                    return "部队储物柜 - 9";
                 }
                 if(SortedContainer is InventoryType.FreeCompanyBag9)
                 {
-                    return "Free Company Chest - 10";
+                    return "部队储物柜 - 10";
                 }
                 if(SortedContainer is InventoryType.FreeCompanyBag10)
                 {
-                    return "Free Company Chest - 11";
+                    return "部队储物柜 - 11";
                 }
                 if(SortedContainer is InventoryType.RetainerMarket)
                 {
-                    return "Market";
+                    return "出售列表";
                 }
                 if(SortedContainer is InventoryType.GlamourChest)
                 {
-                    return "Glamour Chest";
+                    return "幻化箱";
                 }
                 if(SortedContainer is InventoryType.Armoire)
                 {
-                    return "Armoire - " + CabinetLocation;
+                    return "收藏柜 - " + CabinetLocation;
                 }
                 if(SortedContainer is InventoryType.Currency)
                 {
-                    return "Currency";
+                    return "货币";
                 }
                 if(SortedContainer is InventoryType.FreeCompanyGil)
                 {
-                    return "Free Company - Gil";
+                    return "部队 - 金币";
                 }
                 if(SortedContainer is InventoryType.RetainerGil)
                 {
-                    return "Currency";
+                    return "雇员 - 金币";
                 }
                 if(SortedContainer is InventoryType.FreeCompanyCrystal)
                 {
-                    return "Free Company - Crystals";
+                    return "部队 - 水晶";
                 }
                 if(SortedContainer is InventoryType.FreeCompanyCurrency)
                 {
-                    return "Free Company - Currency";
+                    return "部队 - 货币";
                 }
                 if(SortedContainer is InventoryType.Crystal or InventoryType.RetainerCrystal)
                 {
-                    return "Crystals";
+                    return "水晶";
                 }
                 if(SortedContainer is InventoryType.HousingExteriorAppearance)
                 {
-                    return "Housing Exterior Appearance";
+                    return "庭院外观";
                 }
                 if(SortedContainer is InventoryType.HousingInteriorAppearance)
                 {
-                    return "Housing Interior Appearance";
+                    return "房屋已布置物品";
                 }
                 if(SortedContainer is InventoryType.HousingExteriorStoreroom)
                 {
-                    return "Housing Exterior Storeroom";
+                    return "庭院仓库";
                 }
                 if(SortedContainer is InventoryType.HousingInteriorStoreroom1 or InventoryType.HousingInteriorStoreroom2 or InventoryType.HousingInteriorStoreroom2 or InventoryType.HousingInteriorStoreroom3 or InventoryType.HousingInteriorStoreroom4 or InventoryType.HousingInteriorStoreroom5 or InventoryType.HousingInteriorStoreroom6 or InventoryType.HousingInteriorStoreroom7 or InventoryType.HousingInteriorStoreroom8)
                 {
-                    return "Housing Interior Storeroom";
+                    return "房屋仓库";
                 }
                 if(SortedContainer is InventoryType.HousingInteriorPlacedItems1 or InventoryType.HousingInteriorPlacedItems2 or InventoryType.HousingInteriorPlacedItems2 or InventoryType.HousingInteriorPlacedItems3 or InventoryType.HousingInteriorPlacedItems4 or InventoryType.HousingInteriorPlacedItems5 or InventoryType.HousingInteriorPlacedItems6 or InventoryType.HousingInteriorPlacedItems7 or InventoryType.HousingInteriorPlacedItems8)
                 {
-                    return "Housing Interior Placed Items";
+                    return "房屋已布置";
                 }
                 if(SortedContainer is InventoryType.HousingExteriorPlacedItems)
                 {
-                    return "Housing Exterior Placed Items";
+                    return "庭院已布置";
                 }
 
                 return SortedContainer.ToString();

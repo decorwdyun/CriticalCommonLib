@@ -318,43 +318,43 @@ namespace CriticalCommonLib.Extensions
             switch (category)
             {
                 case InventoryCategory.CharacterBags:
-                    return "Bags";
+                    return "背包";
                 case InventoryCategory.CharacterSaddleBags:
-                    return "Saddle Bags";
+                    return "陆行鸟鞍囊";
                 case InventoryCategory.CharacterPremiumSaddleBags:
-                    return "Premium Saddle Bags";
+                    return "豪华陆行鸟鞍囊";
                 case InventoryCategory.FreeCompanyBags:
-                    return "Free Company Bags";
+                    return "部队储物柜";
                 case InventoryCategory.CharacterArmoryChest:
-                    return "Armoury Chest";
+                    return "兵装库";
                 case InventoryCategory.GlamourChest:
-                    return "Glamour Chest";
+                    return "幻化柜";
                 case InventoryCategory.CharacterEquipped:
-                    return "Equipped";
+                    return "装备中";
                 case InventoryCategory.Armoire:
-                    return "Armoire";
+                    return "收藏柜";
                 case InventoryCategory.RetainerBags:
-                    return "Bags";
+                    return "雇员背包";
                 case InventoryCategory.RetainerMarket:
-                    return "Market";
+                    return "雇员出售列表";
                 case InventoryCategory.Currency:
-                    return "Currency";
+                    return "货币";
                 case InventoryCategory.Crystals:
-                    return "Crystals";
+                    return "水晶";
                 case InventoryCategory.HousingExteriorAppearance:
-                    return "Housing Exterior Appearance";
+                    return "庭院外观";
                 case InventoryCategory.HousingExteriorItems:
-                    return "Housing Exterior Items";
+                    return "庭院已布置物品";
                 case InventoryCategory.HousingExteriorStoreroom:
-                    return "Housing Exterior Storeroom";
+                    return "庭院仓库";
                 case InventoryCategory.HousingInteriorAppearance:
-                    return "Housing Interior Appearance";
+                    return "房屋外观";
                 case InventoryCategory.HousingInteriorItems:
-                    return "Housing Interior Items";
+                    return "房屋已布置物品";
                 case InventoryCategory.HousingInteriorStoreroom:
-                    return "Housing Interior Storeroom";
+                    return "房屋仓库";
                 case InventoryCategory.RetainerEquipped:
-                    return "Equipped";
+                    return "雇员装备中";
             }
 
             return category.ToString();
@@ -365,43 +365,43 @@ namespace CriticalCommonLib.Extensions
             switch (category)
             {
                 case InventoryCategory.CharacterBags:
-                    return "Character Bags";
+                    return "角色背包";
                 case InventoryCategory.CharacterSaddleBags:
-                    return "Saddle Bags";
+                    return "陆行鸟鞍囊";
                 case InventoryCategory.CharacterPremiumSaddleBags:
-                    return "Premium Saddle Bags";
+                    return "豪华陆行鸟鞍囊";
                 case InventoryCategory.FreeCompanyBags:
-                    return "Free Company Bags";
+                    return "部队储物柜";
                 case InventoryCategory.CharacterArmoryChest:
-                    return "Armoury Chest";
+                    return "兵装库";
                 case InventoryCategory.GlamourChest:
-                    return "Glamour Chest";
+                    return "幻化柜";
                 case InventoryCategory.CharacterEquipped:
-                    return "Character Equipped";
+                    return "角色装备中";
                 case InventoryCategory.Armoire:
-                    return "Armoire";
+                    return "收藏柜";
                 case InventoryCategory.RetainerBags:
-                    return "Retainer Bags";
+                    return "雇员背包";
                 case InventoryCategory.RetainerMarket:
-                    return "Retainer Market";
+                    return "雇员出售列表";
                 case InventoryCategory.Currency:
-                    return "Currency";
+                    return "货币";
                 case InventoryCategory.Crystals:
-                    return "Crystals";
+                    return "水晶";
                 case InventoryCategory.HousingExteriorAppearance:
-                    return "Housing Exterior Appearance";
+                    return "庭院外观";
                 case InventoryCategory.HousingExteriorItems:
-                    return "Housing Exterior Items";
+                    return "庭院已布置物品";
                 case InventoryCategory.HousingExteriorStoreroom:
-                    return "Housing Exterior Storeroom";
+                    return "庭院仓库";
                 case InventoryCategory.HousingInteriorAppearance:
-                    return "Housing Interior Appearance";
+                    return "房屋外观";
                 case InventoryCategory.HousingInteriorItems:
-                    return "Housing Interior Items";
+                    return "房屋已布置物品";
                 case InventoryCategory.HousingInteriorStoreroom:
-                    return "Housing Interior Storeroom";
+                    return "房屋仓库";
                 case InventoryCategory.RetainerEquipped:
-                    return "Retainer Equipped";
+                    return "雇员装备中";
             }
 
             return category.ToString();
@@ -412,161 +412,161 @@ namespace CriticalCommonLib.Extensions
             switch (type)
             {
                 case InventoryType.Bag0:
-                    return "Main Bags - 1";
+                    return "角色背包 - 1";
                 case InventoryType.Bag1:
-                    return "Main Bags - 2";
+                    return "角色背包 - 2";
                 case InventoryType.Bag2:
-                    return "Main Bags - 3";
+                    return "角色背包 - 3";
                 case InventoryType.Bag3:
-                    return "Main Bags - 4";
+                    return "角色背包 - 4";
                 case InventoryType.GearSet0:
-                    return "Gearset - 1";
+                    return "套装 - 1";
                 case InventoryType.GearSet1:
-                    return "Gearset - 2";
+                    return "套装 - 2";
                 case InventoryType.Currency:
-                    return "Currency";
+                    return "货币";
                 case InventoryType.Crystal:
-                    return "Crystal";
+                    return "水晶";
                 case InventoryType.Mail:
-                    return "Mail";
+                    return "邮件";
                 case InventoryType.KeyItem:
-                    return "Key Item";
+                    return "重要物品";
                 case InventoryType.HandIn:
-                    return "Hand-in";
+                    return "任务物品";
                 case InventoryType.DamagedGear:
-                    return "Damaged Gear";
+                    return "损坏装备";
                 case InventoryType.UNKNOWN_2008:
                     break;
                 case InventoryType.Examine:
-                    return "Examine";
+                    return "检查";
                 case InventoryType.Armoire:
-                    return "Armoire";
+                    return "收藏柜";
                 case InventoryType.GlamourChest:
-                    return "Glamour Chest";
+                    return "幻化柜";
                 case InventoryType.FreeCompanyCurrency:
-                    return "Free Company Currency";
+                    return "部队储物柜货币";
                 case InventoryType.ArmoryOff:
-                    return "Armoury - Off Hand";
+                    return "兵装库 - 副手";
                 case InventoryType.ArmoryHead:
-                    return "Armoury - Head";
+                    return "兵装库 - 头部";
                 case InventoryType.ArmoryBody:
-                    return "Armoury - Body";
+                    return "兵装库 - 身体";
                 case InventoryType.ArmoryHand:
-                    return "Armoury - Hand";
+                    return "兵装库 - 手部";
                 case InventoryType.ArmoryWaist:
-                    return "Armoury - Waist";
+                    return "兵装库 - 腰部";
                 case InventoryType.ArmoryLegs:
-                    return "Armoury - Legs";
+                    return "兵装库 - 腿部";
                 case InventoryType.ArmoryFeet:
-                    return "Armoury - Feet";
+                    return "兵装库 - 脚部";
                 case InventoryType.ArmoryEar:
-                    return "Armoury - Ears";
+                    return "兵装库 - 耳饰";
                 case InventoryType.ArmoryNeck:
-                    return "Armoury - Neck";
+                    return "兵装库 - 项链";
                 case InventoryType.ArmoryWrist:
-                    return "Armoury - Wrist";
+                    return "兵装库 - 手镯";
                 case InventoryType.ArmoryRing:
-                    return "Armoury - Rings";
+                    return "兵装库 - 戒指";
                 case InventoryType.ArmorySoulCrystal:
-                    return "Armoury - Soul Crystals";
+                    return "兵装库 - 灵魂水晶";
                 case InventoryType.ArmoryMain:
-                    return "Armoury - Main Hand";
+                    return "兵装库 - 主手";
                 case InventoryType.SaddleBag0:
-                    return "Saddlebag - 1";
+                    return "陆行鸟鞍囊 - 1";
                 case InventoryType.SaddleBag1:
-                    return "Saddlebag - 2";
+                    return "陆行鸟鞍囊 - 2";
                 case InventoryType.PremiumSaddleBag0:
-                    return "Premium Saddlebag - 1";
+                    return "高级陆行鸟鞍囊 - 1";
                 case InventoryType.PremiumSaddleBag1:
-                    return "Premium Saddlebag - 2";
+                    return "高级陆行鸟鞍囊 - 2";
                 case InventoryType.RetainerBag0:
-                    return "Retainer Bag - 1";
+                    return "雇员背包 - 1";
                 case InventoryType.RetainerBag1:
-                    return "Retainer Bag - 2";
+                    return "雇员背包 - 2";
                 case InventoryType.RetainerBag2:
-                    return "Retainer Bag - 3";
+                    return "雇员背包 - 3";
                 case InventoryType.RetainerBag3:
-                    return "Retainer Bag - 4";
+                    return "雇员背包 - 4";
                 case InventoryType.RetainerBag4:
-                    return "Retainer Bag - 5";
+                    return "雇员背包 - 5";
                 case InventoryType.RetainerBag5:
-                    return "Retainer Bag - 6";
+                    return "雇员背包 - 6";
                 case InventoryType.RetainerBag6:
-                    return "Retainer Bag - 7";
+                    return "雇员背包 - 7";
                 case InventoryType.RetainerEquippedGear:
-                    return "Retainer Equipped Gear";
+                    return "雇员装备中";
                 case InventoryType.RetainerGil:
-                    return "Retainer Gil";
+                    return "雇员金币";
                 case InventoryType.RetainerCrystal:
-                    return "Retainer Crystal";
+                    return "雇员水晶";
                 case InventoryType.RetainerMarket:
-                    return "Retainer Market";
+                    return "雇员出售列表";
                 case InventoryType.FreeCompanyBag0:
-                    return "Free Company Bag - 1";
+                    return "部队储物柜 - 1";
                 case InventoryType.FreeCompanyBag1:
-                    return "Free Company Bag - 2";
+                    return "部队储物柜 - 2";
                 case InventoryType.FreeCompanyBag2:
-                    return "Free Company Bag - 3";
+                    return "部队储物柜 - 3";
                 case InventoryType.FreeCompanyBag3:
-                    return "Free Company Bag - 4";
+                    return "部队储物柜 - 4";
                 case InventoryType.FreeCompanyBag4:
-                    return "Free Company Bag - 5";
+                    return "部队储物柜 - 5";
                 case InventoryType.FreeCompanyBag5:
-                    return "Free Company Bag - 6";
+                    return "部队储物柜 - 6";
                 case InventoryType.FreeCompanyBag6:
-                    return "Free Company Bag - 7";
+                    return "部队储物柜 - 7";
                 case InventoryType.FreeCompanyBag7:
-                    return "Free Company Bag - 8";
+                    return "部队储物柜 - 8";
                 case InventoryType.FreeCompanyBag8:
-                    return "Free Company Bag - 9";
+                    return "部队储物柜 - 9";
                 case InventoryType.FreeCompanyBag9:
-                    return "Free Company Bag - 10";
+                    return "部队储物柜 - 10";
                 case InventoryType.FreeCompanyBag10:
-                    return "Free Company Bag - 11";
+                    return "部队储物柜 - 11";
                 case InventoryType.FreeCompanyGil:
-                    return "Free Company Bag - Gil";
+                    return "部队储物柜 - 金币";
                 case InventoryType.FreeCompanyCrystal:
-                    return "Free Company Bag - Crystal";
+                    return "部队储物柜 - 水晶";
                 case InventoryType.HousingInteriorAppearance:
-                    return "House - Interior Appearance";
+                    return "房屋外观";
                 case InventoryType.HousingInteriorPlacedItems1:
-                    return "House - Interior Placed Items - 1";
+                    return "房屋已布置物品 - 1";
                 case InventoryType.HousingInteriorPlacedItems2:
-                    return "House - Interior Placed Items - 2";
+                    return "房屋已布置物品 - 2";
                 case InventoryType.HousingInteriorPlacedItems3:
-                    return "House - Interior Placed Items - 3";
+                    return "房屋已布置物品 - 3";
                 case InventoryType.HousingInteriorPlacedItems4:
-                    return "House - Interior Placed Items - 4";
+                    return "房屋已布置物品 - 4";
                 case InventoryType.HousingInteriorPlacedItems5:
-                    return "House - Interior Placed Items - 5";
+                    return "房屋已布置物品 - 5";
                 case InventoryType.HousingInteriorPlacedItems6:
-                    return "House - Interior Placed Items - 6";
+                    return "房屋已布置物品 - 6";
                 case InventoryType.HousingInteriorPlacedItems7:
-                    return "House - Interior Placed Items - 7";
+                    return "房屋已布置物品 - 7";
                 case InventoryType.HousingInteriorPlacedItems8:
-                    return "House - Interior Placed Items - 8";
+                    return "房屋已布置物品 - 8";
                 case InventoryType.HousingInteriorStoreroom1:
-                    return "House - Interior Storeroom - 1";
+                    return "房屋仓库 - 1";
                 case InventoryType.HousingInteriorStoreroom2:
-                    return "House - Interior Storeroom - 2";
+                    return "房屋仓库 - 2";
                 case InventoryType.HousingInteriorStoreroom3:
-                    return "House - Interior Storeroom - 3";
+                    return "房屋仓库 - 3";
                 case InventoryType.HousingInteriorStoreroom4:
-                    return "House - Interior Storeroom - 4";
+                    return "房屋仓库 - 4";
                 case InventoryType.HousingInteriorStoreroom5:
-                    return "House - Interior Storeroom - 5";
+                    return "房屋仓库 - 5";
                 case InventoryType.HousingInteriorStoreroom6:
-                    return "House - Interior Storeroom - 6";
+                    return "房屋仓库 - 6";
                 case InventoryType.HousingInteriorStoreroom7:
-                    return "House - Interior Storeroom - 7";
+                    return "房屋仓库 - 7";
                 case InventoryType.HousingInteriorStoreroom8:
-                    return "House - Interior Storeroom - 8";
+                    return "房屋仓库 - 8";
                 case InventoryType.HousingExteriorAppearance:
-                    return "House - Exterior Appearance";
+                    return "庭院外观";
                 case InventoryType.HousingExteriorPlacedItems:
-                    return "House - Exterior Placed Items";
+                    return "庭院已布置物品";
                 case InventoryType.HousingExteriorStoreroom:
-                    return "House - Exterior Storeroom";
+                    return "庭院仓库";
                 default:
                     throw new ArgumentOutOfRangeException(nameof(type), type, null);
             }
@@ -622,13 +622,13 @@ namespace CriticalCommonLib.Extensions
             switch (characterType)
             {
                 case CharacterType.Character:
-                    return "Character";
+                    return "角色";
                 case CharacterType.Housing:
-                    return "Residence";
+                    return "房屋";
                 case CharacterType.Retainer:
-                    return "Retainer";
+                    return "雇员";
                 case CharacterType.FreeCompanyChest:
-                    return "Free Company Chest";
+                    return "部队储物柜";
             }
             return "Unknown";
         }
